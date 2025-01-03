@@ -1,7 +1,7 @@
 import promptSync from 'prompt-sync';
 const prompt = promptSync();
 
-let testNum = Number(prompt("Enter Number "))
+let testNum = Number(prompt("Enter Number "));
 if(isNaN(testNum) || (testNum<1))
 {
     console.log("Please enter a Valid Input");
