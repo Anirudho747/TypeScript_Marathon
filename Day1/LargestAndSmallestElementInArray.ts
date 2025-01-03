@@ -1,3 +1,5 @@
+import promptSync from 'prompt-sync'
+
 let a1 = [10,210,30,140,50,60,170,580,90,1];
 
 a = a.sort((a,b)=>{return a-b});
